@@ -1,13 +1,54 @@
+<!DOCTYPE html>
 <html lang="no">
-  <head>
-    <meta name="author" content="Morten Bujordet">
-    <meta name="description" content="Om Irsk Setter">
-    <meta name="application-name" content="SetterForum">
+    <head>
+        <meta name="author" content="Morten Bujordet">
+        <meta name="description" content="Om Irsk Setter">
+        <meta name="application-name" content="SetterForum">
 
-    <link rel="icon" type="image/png" href="images/icon.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css"
-  </head>
-  <body>
-    <h3>Header</h3>
-  </body>
+        <title>SetterForum</title>
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="home-button">
+                    <a href="#home">Irsk Setter</a>
+                </div>
+                <div class="nav-buttons">
+                    <a id="om" href="#om">Om</a>
+                    <a id="kontakt" href="#kontakt">kontakt</a>
+                </div>
+            </nav>
+        </header>
+        <div class="contet">
+            <div data-scroll-index=0 class="imageContainer">
+                <img class="mySlides" src="images/stockphoto_1.png">
+                <img class="mySlides" src="images/stockphoto_2.png">
+                <img class="mySlides" src="images/stockphoto_3.png">
+            </div>
+            <div data-scroll-index=1 class="infoContainer">
+                <h3>«Verdens vakreste fuglehund»</h3>
+                <p>
+                    Irsk setter er også kjent som rød setter og tilhører
+                    de klassiske stående fuglehundene,
+                    i likhet med irsk rød og hvit setter.</br>
+                    Den er mindre populær enn de engelske setterene,
+                    men mange kaller den verdens vakreste fuglehund.
+                </p>
+            </div>
+            <div class="contactContainer" data-scroll-index=2>
+                <a href="mailto:fugle@hund.no">
+                    <i class="fa fa-envelope"></i>
+                    <h3>fugle@hund.no</h3>
+                </a>
+                <a href="tel:81549300">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <h3>81549200</h3>
+                </a>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
 </html>
